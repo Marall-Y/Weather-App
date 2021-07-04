@@ -1,0 +1,12 @@
+.alert-style {
+  text-align: center;
+  text-transform: capitalize;
+  width: 50%;
+  margin: 0.5rem auto 0 auto;
+  border-radius: 2px;
+  text-transform: capitalize;
+  background-color: rgb(247, 68, 68);
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.4rem;
+}

@@ -1,0 +1,34 @@
+.input-container {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+.input {
+  border-radius: 0.7rem;
+  width: 15rem;
+  padding: 0.3rem 0.8rem;
+  outline: hidden;
+  border: hidden;
+  box-shadow: 0.5rem 0.3rem 0.4rem 0.4rem rgb(199, 194, 194);
+  color: #000;
+  text-transform: capitalize;
+  -webkit-border-radius: 0.7rem;
+  -moz-border-radius: 0.7rem;
+  -ms-border-radius: 0.7rem;
+  -o-border-radius: 0.7rem;
+}
+.input:focus {
+  outline: none;
+  color: #000;
+}
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: -2rem;
+  margin-bottom: 0.2rem;
+  cursor: pointer;
+}
