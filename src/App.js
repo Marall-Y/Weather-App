@@ -19,11 +19,12 @@ const App = () => {
 
   // ****** Functions *********//
 
+  // set city
   const setCityHandler = (e) => {
     setCity(e.target.value);
     setValue(e.target.value);
   };
-
+  // get request (when the user presses Enter)
   const weatherHandler = (e) => {
     if (e.key === "Enter") {
       axios
@@ -49,6 +50,7 @@ const App = () => {
       setValue("");
     }
   };
+  // get request (when the user clicks on search icon)
   const search = () => {
     axios
       .get(
