@@ -42,6 +42,9 @@ const App = () => {
         .catch((err) => {
           console.log(err);
           setError(true);
+          setTimeout(() => {
+            setError(false);
+          }, 2000);
         });
       setValue("");
     }
@@ -63,6 +66,9 @@ const App = () => {
       .catch((err) => {
         console.log(err);
         setError(true);
+        setTimeout(() => {
+          setError(false);
+        }, 2000);
       });
     setValue("");
   };
